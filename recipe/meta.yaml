@@ -1,5 +1,5 @@
 {% set name = "metatensor-operations" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.1" %}
 
 package:
   name: python-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/metatensor_operations-{{ version }}.tar.gz
-  sha256: 90f815fc09632be9dd9176a89368fb7acc7c628f081201c2916220f61eb7a1af
+  sha256: 715b34eb199232d005481a7c763e2f5ff69f23535cccaa9d4b07ca9977516b76
 
 build:
   noarch: python
